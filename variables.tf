@@ -1,6 +1,6 @@
 variable "location" {
     description = "Location of the network"
-    default     = "canadacentral"
+    default     = "eastus"
 }
 
 variable "username" {
