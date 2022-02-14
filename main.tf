@@ -8,6 +8,16 @@ terraform {
       version = "~>2.0"
     }
   }
+  
+  
+  
+  cloud {
+    organization = "bns-terraform-workshop-rs"
+
+    workspaces {
+      name = "core-network-demo-test"
+    }
+  }
 }
 
 provider "azurerm" {
