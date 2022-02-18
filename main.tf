@@ -15,7 +15,7 @@ terraform {
     organization = "bns-terraform-workshop-rs"
 
     workspaces {
-      name = "core-network-demo-test"
+      name = "core-network-demo-test" # Update with your workspace
     }
   }
 }
